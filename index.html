@@ -43,11 +43,14 @@
         }
 
         .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: white;
+            display: flex;
+            align-items: center;
             text-decoration: none;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
         }
 
         .nav-links {
@@ -520,7 +523,9 @@
 <body>
     <!-- Navigation -->
     <nav>
-        <a href="#" class="logo">Bird Ally X</a>
+        <a href="#" class="logo">
+            <img src="bird-ally-x-website-logo_1.webp" alt="Bird Ally X">
+        </a>
         <ul class="nav-links">
             <li><a href="#what-we-do">What We Do</a></li>
             <li><a href="#impact">Our Impact</a></li>
